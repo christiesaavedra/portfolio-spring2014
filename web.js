@@ -100,13 +100,13 @@ StaticServlet.prototype.handleRequest = function (req, res) {
         if (stat.isDirectory()) {
             if (path == './') {
                 res.writeHead(301, {
-                    'location': path + 'index.html'
+                    'location': path + 'main/index.html'
                 });
                 res.end();
             }
-            fs.stat(path + 'index.html', function (err, stat) {
+            fs.stat(path + 'main/index.html', function (err, stat) {
                 if (err == null) {
-                    return self.sendFile_(req, res, path + 'index.html');
+                    return self.sendFile_(req, res, path + 'main/index.html');
                 } else {
                     return self.sendDirectory_(req, res, path);
                 }
