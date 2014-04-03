@@ -1,6 +1,6 @@
 {
-    "name": "portfolio",
-    "description": "Portfolio for Coding Campus",
+    "name": "portfolio_prof",
+    "description": "Portfolio_prof for Coding Campus",
     "engines": {
         "node": "~0.10.23"
     },

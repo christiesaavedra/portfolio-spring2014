@@ -1,3 +1,4 @@
+
 .sidebar {
     position: fixed;
     /*top: 51px;*/
@@ -32,11 +33,55 @@
     background-color: #428bca;
 }
 
-.personal-pic {
+.old_map {
+    height: 150px;
+    width: 300px;
+}
+
+.old_map_@2X {
+    height: 150px;
+    width: 300px;
+}
+
+.purty_wood {
+    height: 150px;
+    width: 300px;
+}
+
+.purty_wood_@2X {
+    height: 150px;
+    width: 300px;
+}
+
+.tileable_wood_texture {
+    height: 150px;
+    width: 300px;
+}
+
+.tileable_wood_texture_@2X {
+    height: 150px;
+    width: 300px;
+}
+
+.prof_pic{
     height: 75px;
     width: 75px;
 }
 
+.lg_prof_pic{
+    height: 190px;
+    width: 175px;
+}
+
+.res_logo {
+    height: 150px;
+    width: 300px;
+}
+
+.dojo {
+    height: 150px;
+    width: 300px;
+}
 .content {
     /*padding: 20px 40px;*/
     margin-left: 135px;
@@ -76,3 +121,10 @@
 .spacer-sm {
     margin-top: 20px;
 }
+.center {
+    width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+

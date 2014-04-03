@@ -1,6 +1,6 @@
 {
-    "name": "portfolio",
-    "description": "Portfolio",
+    "name": "portfolio_prof",
+    "description": "Portfolio_prof",
     "dependencies": {
         "bootstrap": "latest",
         "font-awesome": "latest"
